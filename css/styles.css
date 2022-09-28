@@ -1,0 +1,363 @@
+:root {--title-text-color: #212121;
+    --text-color: #757575;
+    --acsent-color:#2196F3;
+    --fon-prioritet-color: #F5F5F5; 
+    --fon-komanda-color: #F5F4FA; 
+    --fon-contact-color: #2F303A;   
+}
+
+body {
+    font-family: "Roboto", sans-serif; 
+    font-size: normal;
+
+}
+
+.link {
+    text-decoration: none;
+
+}
+.nav-logo {color: #000000;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.section-two {
+    display: inline;
+    display: flex;
+    gap: 30px;   
+}
+
+.logo, a.contack {
+    font-style: normal;
+}
+h1, h2, h3, p {
+        margin-top: 0px;
+        margin-bottom: 0px;   
+}
+
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+outline: 2px solid tomato ;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.heder-list {
+    display: flex;
+     gap: 50px;
+    align-items: center;
+    margin-left: auto;  
+    }
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    
+}
+.header-container {
+    display: flex;
+    align-items: center;
+
+    }
+
+.page-header {
+    background-color: aquamarine;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    }
+
+.nav-links {
+    color: var(--acsent-color);
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+margin-right: 93px;
+
+}
+.nav-link { 
+    color: var(--acsent-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+}
+.nav-link:hover, .nav-link:focus {
+    color: #000000;
+}
+.nav-link .current { 
+    color: #000000;
+}
+
+.nav-link-head {
+    color: var(--title-text-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.nav-link-head:hover,.nav-link-head:focus {color:#2196F3;}
+
+.nav-link-tel {
+    color: var(--text-color);
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.nav-link-tel:hover,  .nav-link-tel:focus {
+    color: #000000;
+}
+.logo-white { 
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF ;
+}
+.logo-bottom {
+    margin-bottom: 20px;
+}
+
+.fon-prioritet {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+h3.prioritet {
+    color: var(--title-text-color);
+   font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+  }
+
+.prioritet-clas {
+    color: var(--title-text-color);
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+padding-bottom: 10px;
+}
+.prioritet-info {
+    color: var(--text-color);
+   font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}  
+
+
+.prioritet-text {
+    color: var(--text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+  }
+.section-titel {
+    color: var(--title-text-color);
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+}
+
+.fon-section {
+    background-color: #2F303A;   
+}
+
+.section-one {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main-titele {   
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 30px;
+width: 696px;
+margin: 0px auto;
+margin-bottom: 30px;
+}
+
+.fon-work {
+    padding-top: 0px;
+    padding-bottom: 94px;
+}
+
+ .fon-komanda { 
+    background-color: var(--fon-komanda-color) ;
+    padding-top: 94px; 
+    padding-bottom: 94px;
+  }
+  
+  .fon-contack {
+    background-color: var(--fon-contact-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+.contack {
+        font-family: 'Roboto';
+    font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.contack:hover, .contack:focus  {
+    color: var(--acsent-color);
+}
+
+.logo {
+    font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.button-osnovna {
+   background-color: var(--acsent-color);
+   font-family: 'Roboto';
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;  
+cursor: pointer;
+border-radius: 4px;
+margin:0 auto;
+min-width: 216px;
+padding: 10px 32px;
+border: 2px solid transparent;
+    } 
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--fon-komanda-color);
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+border-radius: 4px;
+min-width: 125px;
+padding: 6px 22px;
+border: 2px solid brown;
+}
+
+.button-all {
+        background-color: var(--acsent-color);
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;      
+        text-align: center;
+        letter-spacing: 0.03em;  
+        color: #FFFFFF;
+        cursor: pointer;
+        border-radius: 4px;
+        min-width: 73px;
+        padding: 6px 25px;
+        border: 2px solid var(--acsent-color);
+
+}
+
+.prioritet-titel {
+    color: var(--title-text-color);
+   font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.prioritet-texts {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color:var(--text-color);
+}
+.srction-foto {
+    display: flex;
+    gap: 30px;
+}
+
+.section-komanda {
+    display: flex;
+    gap: 30px;
+}
+
+.img-foto {
+    width: calc((100% - 90px) /4);
+}
+.container-foto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.foto-stop {
+    width: calc((100% - 60px) /3);
+}
+.container-button {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.komanda-text {
+    padding-top: 30px;
+    padding-bottom: 30px;    
+}
+.text-one {
+    margin-bottom: 10px;
+}
+.menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border: 2px solid tomato;   
+}
+.logo, .contack {
+    margin-bottom: 9px;
+}
