@@ -194,7 +194,8 @@ margin-bottom: 50px;
 }
 
 .fon-section {
-    background-color: #2F303A;   
+    background-color: #2F303A;
+     
 }
 
 .section-one {
@@ -358,6 +359,9 @@ color:var(--text-color);
     padding-left: 24px;
     border: 2px solid tomato;   
 }
-.logo, .contack {
+    
+.address-contacts {
+    display: flex;
     margin-bottom: 9px;
+    width: 231px;
 }
